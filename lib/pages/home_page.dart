@@ -97,7 +97,7 @@ class _HomePageState extends State<HomePage> {
   Widget _buildCard(Product product) {
     return Card(
       color: const Color(0xFF1C1C1E),
-      margin: EdgeInsets.zero, // jarak sudah diatur spacing di grid
+      margin: EdgeInsets.zero, 
       clipBehavior: Clip.antiAlias,
       child: InkWell(
         onTap: () => Navigator.push(

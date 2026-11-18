@@ -12,7 +12,6 @@ class CartPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text('Keranjang Belanja')),
-      // Otomatis rebuild setiap isi box Hive berubah (misal item dihapus)
       body: ValueListenableBuilder(
         valueListenable: CartService.box.listenable(),
         builder: (context, box, child) {

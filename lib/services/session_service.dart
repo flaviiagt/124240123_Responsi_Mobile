@@ -10,7 +10,7 @@ class SessionService {
 
   static Future<String?> getEmail() async {
     final prefs = await SharedPreferences.getInstance();
-    return prefs.getString(_keyEmail); // null kalau belum login
+    return prefs.getString(_keyEmail); 
   }
 
   static Future<void> logout() async {

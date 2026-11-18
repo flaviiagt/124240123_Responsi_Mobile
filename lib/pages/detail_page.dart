@@ -108,7 +108,7 @@ class _DetailPageState extends State<DetailPage> {
                         },
                         child: Text(
                           inCart
-                              ? 'Hapus dari Keranjang'
+                              ? 'Sudah di Keranjang'
                               : 'Masukkan ke Keranjang',
                         ),
                       );
